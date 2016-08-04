@@ -1,0 +1,173 @@
+.center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 14px;
+    color: #f3f3f3;
+    ;
+}
+
+#imagediv{
+    position: relative;
+    opacity: 0.9;
+}
+
+.top_text{
+    position: absolute;
+    top:8%;
+    left:36%;
+    font-size: 25px;
+    color:white;
+}
+.sub_top{
+    position:absolute;
+    top:15%;
+    left:39%;
+    font-size:12px;
+    color:white;
+}
+
+.middle_text{
+    position: absolute;
+    top:23%;
+    left:35%;
+    font-size: 23px;
+    color: #FFFFFF;
+}
+.btn, .btn:hover .btn>a:hover{
+    position:absolute;
+    top:41%;
+    left:43%;
+    background: red;
+    border-color: red;
+}
+
+.top-bar-section li:not(.has-form) a:not(.button){
+    background:#fff;
+    color:#000;
+    padding:10px;
+    font-size: 13px;
+}
+.header .top-bar-section ul li:not(.has-form) a:not(.button):hover{
+background-color:white;
+color:  tomato;
+}
+.contain-to-grid{
+background-color: #fff;
+}
+span{
+    font-size: 11px;
+}
+.header .top-bar{
+    background-color: white;
+}
+.header .top-bar .top-bar-section ul{
+    border-bottom: 2px tomato;
+}
+.btn>a {
+    color: white;
+
+    width: 17%;
+}
+
+.headlink{
+    color: black;
+    line-height: inherit;
+    text-decoration: none;
+    font-size: 14px;
+}
+#know{
+    color:white;
+}
+.formonimage{
+    position: absolute;
+    top: 80%;
+    width:100%;
+    background-color: whitesmoke;
+    opacity: 0.8;
+    padding-top: 2%;
+
+}
+.formonimage .row .columns a {
+    font-size: 13px;
+    width:155%
+}
+.button, .button:hover, .button:focus {
+    background-color: red;
+}
+#contactme{
+    text-decoration: underline;
+}
+#steps ul li{
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    text-align: left;
+    padding: 2% 3% 2% 1%;
+}
+
+.button-group>li {
+    display: inline-block;
+    margin: 0px -1px;
+}
+.stepdesc{
+    font-size: 15px;
+}
+table,th {
+    border: 1px solid black;
+
+}
+td,tr {
+
+
+    border-bottom: 0px ;
+    border-right:1px solid black;
+    border-left:1px solid black;
+}
+table th{
+    color:red;
+}
+.pkg {
+    font-size: 12px;
+    text-align: center;
+    position: relative;
+
+}
+.pkgcontent{
+    position: absolute;
+    top:33%;
+    left:23%;
+    color:white;
+    font-size: 14px;
+}
+
+.accordion-navigation
+  >a:after {
+    content: "↡";
+    padding-left: 5px;
+    float: right;
+    font-size: 20px;}
+
+  .active a:after {
+    content: "↟";
+  }
+.mypanel {
+    border-style: solid;
+    border-width: 1px;
+    border-color: #d8d8d8;
+}
+
+.footer-heading{
+    padding: 25px 18px;
+    font-size: 14px;
+}
+
+#footer , #footer .row{
+    background-color:#f5f0e1;
+    border-top:1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    max-width: 71.5rem;
+    margin:0 auto;
+}
+

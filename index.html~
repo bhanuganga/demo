@@ -1,0 +1,20 @@
+<!doctype HTML>
+<head>
+<title>Design Services</title>	
+	<link rel="stylesheet" src="/script&css/foundation.css">
+	<link rel="stylesheet" src="/script&css/foundation.min.css">
+	<script src="/scripts&css/foundation.min.js"></script>
+</head>
+<body>
+
+
+
+
+<script type="text/javascript" src="/static/foundation.min.js"></script>
+<script type="text/javascript" src="/static/modernizr.js"></script>
+<script>
+   $(document).ready(function() {
+     $(document).foundation();
+   })
+</script>
+</body>
