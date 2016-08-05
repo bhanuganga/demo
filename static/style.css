@@ -209,3 +209,9 @@ p.answer{
     margin-left: 0px;
     margin-right:0px;
 }
+#narrowtop{
+    background-color: #DDDDDD;
+}
+#narrowtop ul li a{
+    color: black;
+}
