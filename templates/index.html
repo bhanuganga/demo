@@ -7,104 +7,100 @@
 
 </head>
 <body>
-<div class="row" >
-    <div class="columns large-4" style="padding-top: 27px;">
-        <a href="/">
-            <img src="{{url_for('static', filename='custom-furnish.png')}}">
-        </a>
-    </div>
-
-    <div class="columns large-8" style="padding-top: 15px ; ">
-        <ul class="button-group right" >
-            <li> <a class=headlink href="tel:040 660660454" style="display: block;margin:10px 10px 0px 10px ; ">040-660660454 </a></li>
+<div style="background-color: #DDDDDD;">
+    <ul style="list-style: none;margin-left:74%">
+        <li style="display: inline"><a href="tel:040 660660454">040 660660454</a></li>
+        <li style="display: inline"> | </li>
+        <li style="display: inline"><a href="mailto:wecare@customfurnish.com">wecare@customfurnish.com</a></li>
+    </ul>
+</div>
+<div class="header" >
+    <nav class="top-bar" data-topbar role="navigation" >
+      <section class="top-bar-section" >
+      <ul class="left">
             <li>
-                <p>|</p>
+                <a href="/">
+                    <img src="{{url_for('static', filename='custom-furnish-small.png')}}">
+                </a>
             </li>
-            <li > <a class=headlink href="mailto:wecare@customfurnish.com" style="display: block;margin:0px 10px 0px 10px ; "> wecare@customfurnish.com </a></li>
-            <li> <a class=headlink href="#" style="display: block;margin:0px 10px 0px 10px ; ">
-                <img src="/static/signin.png" style="height: 20px;width: 20px;"></a>
-            <p style="font-size:12px; text-align: center">Sign in</p></li>
-            <li> <a href="#">
-                <img src="/static/cart.png" style="height: 20px;width: 20px"></a>
-            <p style="font-size: 12px; text-align: center">Cart</p></li>
         </ul>
-    </div>
-
+      <ul class="right" >
+          <li><a href="#" >HOME</a></li>
+          <li><a href="#">DESIGN SERVICE</a></li>
+          <li><a href="#">SAMPLE PROJECT</a></li>
+          <li><a href="#">TESTIMONIALS</a></li>
+          <li><a href="#">FAQ</a></li>
+        </ul>
+      </section>
+    </nav>
 </div>
 
-<div class="header" style="border-bottom: 1px solid tomato ">
-    <div class="row" >
-        <div class=" sticky " >
-            <nav class="top-bar" data-topbar role="navigation" >
-              <section class="top-bar-section" >
-                <ul class="contain-to-grid" >
-                  <li><a href="#" >LIVING ROOM</a></li>
-                  <li><a href="#">KITCHEN</a></li>
-                  <li><a href="#">BED ROOM</a></li>
-                  <li><a href="#">HOME DECOR</a></li>
-                  <li><a href="#">OFFICE</a></li>
-                  <li><a href="#">FULL HOUSE</a></li>
-                  <li><a href="#">DESIGN SERVICE</a></li>
-                  <li><a href="#">HOW IT WORKS</a></li>
-                  <li><a href="#">OUR PROJECTS</a></li>
-                  <li><a href="#">FAQ</a></li>
-                </ul>
-              </section>
-            </nav>
+<div class="row column large-5 small-6 large-centered small-centered" >
+    <div style="font-size: 20px">
+        DESIGN SERVICE <span style="font-size: 12px;">STARTS FROM</span> Rs 20,000/-*
+    </div>
+</div>
+<div id="flow">
+    <ul class="inline-list" style="padding: 60px 60px 0px 60px;">
+        <li><a href="#bookorder" ><img src="/static/icon-hand-s.png"></a></li>
+        <li><img class=arro src="/static/arrow-small.png"></li>
+        <li><a href="#furniturelayout" style="border:2px solid #498a41"><img src="/static/images.png"></a></li>
+        <li><img class=arro src="/static/arrow-small.png"></li>
+        <li><a href="#design" style="border:2px solid #b30404"><img src="/static/3d.png"></a></li>
+        <li><img class=arro src="/static/arrow-small.png"></li>
+        <li><a href="#productiondocs"><img src="/static/production.png"></a></li>
+    </ul>
+    <div class="tabs-content" style="margin-top: 25px">
+        <div class="content active"  id="bookorder">
+            <div class="arrow_box" style="padding: 25px 100px">
+                <img src="/static/floorplan.png" style="vertical-align:top;height: 200px;width:200px; background-color: lightgray">
+                Our designer will contanct you to understand your requirements and to take inputs
+            </div>
+        </div>
+        <div class="content"  id="furniturelayout">
+            <div class="arrow_box">Layout design by highly qualified professionals</div>
+        </div>
+        <div class="content"  id="design">
+            <div class="arrow_box">3D design demo </div>
+        </div>
+        <div class="content"  id="productiondocs">
+            <div class="arrow_box">Handing over production documents</div>
         </div>
     </div>
 </div>
 
-<div id=imagediv style="padding-top: 3px">
-    <img  src="/static/orange-and-black-interior-artwork-ideas.jpg">
-    <div class="top_text"><strong>YOUR INTERIOR DESIGN PARTNER</strong><br></div>
-    <div class="sub_top">GET YOUR HOME DESIGNED BY OUR EXPERT DESIGNERS</div>
-    <div class="middle_text">DESIGN SERVICE  <span>STARTS FROM</span>  Rs 20,000/-*</div>
-    <div class="button btn"><a class="know" href="#">KNOW MORE</a></div>
-    <div class="center">* Get All Production ready Documents - Designs, Engineering Drawing, Bill of material</div>
-    <div class="formonimage">
-        <form data-abide>
-            <div class="row">
-                <div class="columns large-2 small-2" style="padding-right: 4px">
-                    <input type="text" placeholder="Name">
-                </div>
-                <div class="columns large-3 small-3"  style="padding: 0px 0px 0px 0px;">
-                    <input type="text" placeholder="Email" pattern="email">
-                </div>
-                <div class="columns large-2 small-2" style="padding: 0px 0px 0px 4px;">
-                    <input type="tel" placeholder="Phone">
-                </div>
-                <div class="columns large-2 small-2">
-                    <a class="button" href="#" style="padding: 12px 0px 10px 0px;">CONTACT ME</a>
-                </div>
-                <div class="columns large-2 small-2" style="padding: 5px 0px 0px 0px;">
-                    <a href="#" id=contactme style="">VIEW PACKAGES</a>
-                </div>
+
+
+<div class="formonimage">
+    <form data-abide>
+        <div class="row">
+            <div class="columns large-2 small-2" style="padding-right: 4px">
+                <input type="text" placeholder="Name">
             </div>
+            <div class="columns large-3 small-3"  style="padding: 0px 0px 0px 0px;">
+                <input type="text" placeholder="Email" pattern="email">
+            </div>
+            <div class="columns large-2 small-2" style="padding: 0px 0px 0px 4px;">
+                <input type="tel" placeholder="Phone">
+            </div>
+            <div class="columns large-2 small-2">
+                <a class="button" href="#" style="padding: 12px 0px 10px 0px;">CONTACT ME</a>
+            </div>
+            <div class="columns large-2 small-2" style="padding: 5px 0px 0px 0px;">
+                <a href="#" id=contactme style="">VIEW PACKAGES</a>
+            </div>
+        </div>
 
-        </form>
-    </div>
-</div>
-
-<div class="row" style="padding: 5% 0% 1% 0%; border-bottom: 1px solid #4d4d4d; text-align: center">
-    <div class="columns large-3 large-centered">
-        <div>HOW IT WORKS</div>
-    </div>
-</div>
-<div id="steps" style="padding:3% 0% 1% 0%;">
-    <ul class="button-group">
-        <li class="button">1<div class="stepdesc">BOOK ORDER </div></li>
-        <li class="button">2<div class="stepdesc">CONNECT TO DESIGNER</div></li>
-        <li class="button">3<div class="stepdesc">FURNITURE LAYOUT</div></li>
-        <li class="button">4<div class="stepdesc">MATERIALS & COLORS</div></li>
-        <li class="button" style="padding-right: 5%">5<div class="stepdesc">3D RENDERS</div></li>
-        <li class="button">6<div class="stepdesc">PRODUCTION DOCUMENTS</div></li>
-    </ul>
-
+    </form>
 </div>
 
 
-<div class="row" style="padding: 5% 0% 1% 0%; border-bottom: 1px solid #4d4d4d;text-align: center">
+<div style="padding: 0px 140px;" class="row columns small-12 small-centered">* Get all production ready documents- Designs, Engineering Drawings, Bill of materials </div>
+
+
+
+
+<div class="row tags" style="padding: 12% 0% 1% 0%; border-bottom: 1px solid #4d4d4d;text-align: center">
     <div class="columns large-3 large-centered">
         <div>PACKAGES</div>
     </div>
@@ -171,7 +167,7 @@
 </div>
 
 
-<div class="row" style="padding: 5% 0% 1% 0%; border-bottom: 1px solid #4d4d4d ;text-align: center">
+<div class="row tags" style="padding: 5% 0% 1% 0%; border-bottom: 1px solid #4d4d4d ;text-align: center">
     <div class="columns large-3 large-centered">
         <div>WHAT WE OFFER</div>
     </div>
@@ -205,7 +201,7 @@
     </div>
 </div>
 
-<div class="row" style="padding: 5% 0% 1% 0%; border-bottom: 1px solid #4d4d4d ;text-align: center">
+<div class="row tags" style="padding: 5% 0% 1% 0%; border-bottom: 1px solid #4d4d4d ;text-align: center">
     <div class="columns large-3 large-centered">
         <div>WHY US?</div>
     </div>
@@ -234,7 +230,7 @@
     </div>
 </div>
 
-<div class="row" style="padding: 0% 0% 1% 0%; border-bottom: 1px solid #4d4d4d ;text-align: center">
+<div class="row tags" style="padding: 0% 0% 1% 0%; border-bottom: 1px solid #4d4d4d ;text-align: center">
     <div class="columns large-3 large-centered">
         <div>SAMPLE PROJECT</div>
     </div>
@@ -249,12 +245,23 @@
     </div>
 </div>
 
-<div class="row" style="padding: 0% 0% 1% 0%; border-bottom: 1px solid #4d4d4d ;text-align: center">
+<div class="row tags" style="padding: 0% 0% 1% 0%; border-bottom: 1px solid #4d4d4d ;text-align: center">
     <div class="columns large-3 large-centered">
         <div>GALLERY</div>
     </div>
 </div>
-<div>QWERTYUIOP</div>
+<div class="row large-12 " style="padding-top: 25px">
+    <ul class="large-block-grid-2">
+        <li><img src="/static/gallerypic1.png"></li>
+        <li><ul class="large-block-grid-2" style="padding: 0px 8px;">
+                <li><img src="/static/gallerypic2.png"> </li>
+                <li><img src="/static/gallerypic2.png"> </li>
+                <li><img src="/static/gallerypic2.png"> </li>
+                <li><a href="#"><img src="/static/gallerypic2.png"></a> </li>
+            </ul>
+        </li>
+    </ul>
+</div>
 
 <div style="background-color: #4e4e4e  ">
 <div class="row" style="padding: 3% 0% 1% 0%; border-bottom: 1px solid white ;text-align: center">
@@ -264,22 +271,22 @@
 </div>
 
 <div class="row" data-equalizer style="padding: 20px;">
-    <div class="columns large-3 medium-3 small-6" data-equalizer-watch style="padding:0 1px 0 1px;TEXT-ALIGN: left; FONT-SIZE: 12px;">
+    <div class="columns large-3 medium-3 small-6" data-equalizer-watch style="padding:0px 10px;TEXT-ALIGN: left; FONT-SIZE: 12px;">
         <div class="panel" style="background-color:white;">
             <img src="/static/testimonial.jpg">
             <div>WE PLACED A FULL-HOUSE FURNITURE ORDER WITH CUSTOM FURNISH,
             THEY HAVE BEAUTIFULLY FURNISHED MY HOME</div>
         </div>
     </div>
-    <div class="columns large-3 medium-3 small-6" data-equalizer-watch style="padding:0 1px 0 1px;TEXT-ALIGN: left; FONT-SIZE: 12px;">
+    <div class="columns large-3 medium-3 small-6" data-equalizer-watch style="padding:0px 10px;TEXT-ALIGN: left; FONT-SIZE: 12px;">
         <div class="panel" style="background-color:white;">
             <img src="/static/testimonial.jpg">WE PLACED A FULL-HOUSE FURNITURE ORDER WITH CUSTOM FURNISH, THEY HAVE BEAUTIFULLY FURNISHED MY HOME</div>
     </div>
-    <div class="columns large-3 medium-3 small-6" data-equalizer-watch style="padding:0 1px 0 1px;TEXT-ALIGN: left; FONT-SIZE: 12px;">
+    <div class="columns large-3 medium-3 small-6" data-equalizer-watch style="padding:0px 10px;TEXT-ALIGN: left; FONT-SIZE: 12px;">
         <div class="panel" style="background-color:white;">
             <img src="/static/testimonial.jpg">WE PLACED A FULL-HOUSE FURNITURE ORDER WITH CUSTOM FURNISH, THEY HAVE BEAUTIFULLY FURNISHED MY HOME</div>
     </div>
-    <div class="columns large-3 medium-3 small-6" data-equalizer-watch style="padding:0 1px 0 1px;TEXT-ALIGN: left; FONT-SIZE: 12px;">
+    <div class="columns large-3 medium-3 small-6" data-equalizer-watch style="padding:0px 10px;TEXT-ALIGN: left; FONT-SIZE: 12px;">
         <div class="panel" style="background-color:white;">
             <img src="/static/testimonial.jpg">WE PLACED A FULL-HOUSE FURNITURE ORDER WITH CUSTOM FURNISH, THEY HAVE BEAUTIFULLY FURNISHED MY HOME</div>
     </div>
@@ -287,37 +294,28 @@
 </div>
 
 
-<div class="row" style="padding: 5% 0% 1% 0%; border-bottom: 1px solid #4d4d4d ;text-align: center">
+<div class="row tags" style="padding: 5% 0% 1% 0%; border-bottom: 1px solid #4d4d4d ;text-align: center">
     <div class="columns large-3 large-centered">
         <div>FAQ</div>
     </div>
 </div>
 <div style="padding: 10px 100px ">
-<ul class="accordion" data-accordion role="tablist">
-  <li class="accordion-navigation">
-    <a href="#panel1" role="tab" id="panel1-heading" aria-controls="panel1">How do I book an order with CustomFurnish.com></a>
-    <div id="panel1" class="content active" role="tabpanel" aria-labelledby="panel1d-heading">
-      Ans:You can book an order with us online by clicking on the BOOK NOW buttoon and furnishing all the mandatory information & files.
-    </div>
-  </li>
-  <li class="accordion-navigation">
-    <a href="#panel2"  role="tab" id="panel2-heading" aria-controls="panel2">Is the booking amount refundable?</a>
-    <div id="panel2" class="content" role="tabpanel" aria-labelledby="panel2-heading">
-      Ans:If you are opting for the Design only package, then the amount you pay is the design fee and is not refundable.
+    <p class="question">How do I book an order with CustomFurnish.com?</p>
+    <p class="answer">Ans:You can book an order with us online by clicking on the BOOK NOW buttoon and furnishing all the mandatory information & files.</p>
+
+    <p class="question">Is the booking amount refundable?</p>
+    <p class="answer">Ans:If you are opting for the Design only package, then the amount you pay is the design fee and is not refundable.
         However if you select Design & Execute package, the amount you pay at the time of booking will be absorbed in the total project cost.
-    </div>
-  </li>
-  <li class="accordion-navigation">
-    <a href="#panel3" role="tab" id="panel3-heading" aria-controls="panel3">Can I switch the package I select at a later point?</a>
-    <div id="panel3" class="content" role="tabpanel" aria-labelledby="panel3-heading">
+    </p>
+
+    <p class="question">Can I switch the package I select at a later point?</p>
+    <p class="answer">
       Ans:You are free to switch from one package to the other at any time. If you decide to switch from Design Only to
         Design and Execute, your booking amount will be absoorbed in the total project cost. However, if you sign up for
         Design and Execute package and later decide to avail only design services, we'll not be providing you the Design,
         BOM & Engineering drawings.
-    </div>
-  </li>
-</ul>
-</div>
+    </p>
+ </div>
 <div id="footer">
 <div class="row" >
     <div class="columns small-3 large-3">
@@ -366,15 +364,17 @@
         SignUp for our newsletter and you could win exciting offers and shopping vouchers!
     </div>
 </div>
-    <div class="row">
-        <div class="columns small-10 large-6 " style="padding-left: 200px">
-            <input type="text" placeholder="your email address">
+    <form>
+        <div class="row" style="padding-left: 250px">
+            <div class="columns small-6 large-5" >
+                <input type="text" placeholder="your email address">
+            </div>
+            <div class="columns small-5 large-2 large-centered " >
+                <div class="small button">SUBSCRIBE</div>
+            </div>
         </div>
-        <div class="columns small-10 large-2" style="padding-right: 550px;">
-            <div class="small button">SUBSCRIBE</div>
-        </div>
-    </div>
-
+    </form>
+</div>
 <script type="text/javascript" src="/static/foundation.min.js"></script>
 <script type="text/javascript" src="/static/modernizr.js"></script>
 <script src="/static/jquery.js"></script>
@@ -386,4 +386,5 @@
      $(document).foundation();
    })
 </script>
+
 </body>

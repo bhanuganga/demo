@@ -52,6 +52,7 @@
 .header .top-bar-section ul li:not(.has-form) a:not(.button):hover{
 background-color:white;
 color:  tomato;
+
 }
 .contain-to-grid{
 background-color: #fff;
@@ -81,11 +82,7 @@ span{
     color:white;
 }
 .formonimage{
-    position: absolute;
-    top: 80%;
-    width:100%;
-    background-color: whitesmoke;
-    opacity: 0.8;
+    background-color: #111111;
     padding-top: 2%;
 
 }
@@ -142,20 +139,12 @@ table th{
     font-size: 14px;
 }
 
-.accordion-navigation
-  >a:after {
-    content: "↡";
-    padding-left: 5px;
-    float: right;
-    font-size: 20px;}
-
-  .active a:after {
-    content: "↟";
-  }
 .mypanel {
     border-style: solid;
     border-width: 1px;
     border-color: #d8d8d8;
+    background-color: white;
+    padding:0px;
 }
 
 .footer-heading{
@@ -171,3 +160,52 @@ table th{
     margin:0 auto;
 }
 
+.arrow_box {
+	position: relative;
+	background: lightgray;
+
+}
+.arrow_box:after, .arrow_box:before {
+	bottom: 100%;
+	left: 130px;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.arrow_box:after {
+	border-color: rgba(136, 183, 213, 0);
+	border-bottom-color: lightgray;
+	border-width: 30px;
+	margin-left: -30px;
+}
+.arrow_box:before {
+	border-color: rgba(194, 225, 245, 0);
+
+	border-width: 36px;
+	margin-left: -36px;
+}
+p.question{
+    font-size:15px;
+    font-weight:bold;
+}
+p.answer{
+    font-size:14px;
+    padding-bottom: 25px;
+}
+.tags{
+    font-weight: bold;
+    font-size:23px;
+}
+#flow ul li a{
+    border: 2px solid #1f7abd;
+    padding: 25px;
+}
+#flow ul li img.arro{
+    padding-top: 50px;
+    margin-left: 0px;
+    margin-right:0px;
+}
