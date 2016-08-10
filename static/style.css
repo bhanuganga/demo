@@ -163,15 +163,17 @@ table th{
     max-width: 91.5rem;
     margin:0 auto;
 }
-
+.inline-list>li{
+    margin-left: 1px;
+}
 .arrow_box {
 	position: relative;
 	background: lightgray;
 
 }
-.arrow_box:after, .arrow_box:before {
+#bookorder.arrow_box:before , #bookorder.arrow_box:after{
 	bottom: 100%;
-	left: 310px;
+	left: 270px;
 	border: solid transparent;
 	content: " ";
 	height: 0;
@@ -180,16 +182,17 @@ table th{
 	pointer-events: none;
 }
 
-.arrow_box:after {
-	border-color: rgba(136, 183, 213, 0);
-	border-bottom-color: lightgray;
-	border-width: 30px;
-	margin-left: -30px;
+#designer_connect.arrow_box:before{
+    bottom: 100%;
+	left: 600px;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
 }
-.arrow_box:before {
-    border: 36px rgba(194, 225, 245, 0);
-    margin-left: -36px;
-}
+
 p.question{
     font-size:15px;
     font-weight:bold;

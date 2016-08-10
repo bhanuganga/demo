@@ -4,13 +4,7 @@
 	<link rel="stylesheet" href="static/foundation.css">
 	<link rel="stylesheet" href="static/foundation.min.css">
     <link rel="stylesheet" href="static/style.css">
-<script>
-    $(document).ready(function() {
-        $(".stepdesc").hover(
-                function(){$("#book_order").show();},
-                function(){ $("#book_order").hide(); });
-    });
-</script>
+
 </head>
 <body>
 <div id=narrowtop >
@@ -84,21 +78,61 @@
     </div>
 </div>
 <div id="steps" style="padding:3% 0% 1% 12%;">
-    <ul class="button-group">
-        <li class="button">1.<div class="stepdesc"> BOOK ORDER </div></li>
-        <li class="button">2.<div class="stepdesc"> CONNECT TO DESIGNER</div></li>
-        <li class="button">3.<div class="stepdesc"> FURNITURE LAYOUT</div></li>
-        <li class="button">4.<div class="stepdesc"> MATERIALS & COLORS</div></li>
-        <li class="button" style="padding-right: 5%">5.<div  class="stepdesc"> 3D RENDERS</div></li>
-        <li class="button">6.<div class="stepdesc"> PRODUCTION DOCUMENTS</div></li>
+    <ul class="inline-list" class="tabs" data-tab >
+        <li class="tab-title active"><a href="#bookorder">1.<div class="stepdesc"> BOOK ORDER </div></a></li>
+        <li class="tab-title"><a href="#designer_connect" >2.<div class="stepdesc"> CONNECT TO DESIGNER</div></a></li>
+        <li class="tab-title"><a href="#furniturelayout">3.<div class="stepdesc"> FURNITURE LAYOUT</div></a></li>
+        <li class="tab-title"><a href="#materials ">4.<div class="stepdesc"> MATERIALS & COLORS</div></a></li>
+        <li class="tab-title" style="padding-right: 5%"><a href="render">5.<div  class="stepdesc"> 3D RENDERS</div></a></li>
+        <li class="tab-title"><a href="#docs">6.<div class="stepdesc"> PRODUCTION DOCUMENTS</div></a></li>
     </ul>
 
 </div>
+<div class="tabs-content">
+    <div class="content active" id="bookorder">
+        <div class="arrow_box" style="padding: 25px 100px">
+            <img src="static/floorplan.png" style="vertical-align:top;height: 200px;width:200px; background-color: lightgray">
+            Our designer will contanct you to understand your requirements and to take inputs
+        </div>
+    </div>
 
-<div id=book_order class="arrow_box" style="padding: 25px 100px">
-                <img src="static/floorplan.png" style="vertical-align:top;height: 200px;width:200px; background-color: lightgray">
-                Our designer will contanct you to understand your requirements and to take inputs
+    <div class="content" id="designer_connect">
+        <div class="arrow_box" style="padding: 25px 100px">
+            <img src="static/floorplan.png" style="vertical-align:top;height: 200px;width:200px; background-color: lightgray">
+            Contact Designer
+        </div>
+    </div>
+
+    <div class="content" id="furniturelayout">
+        <div class="arrow_box" style="padding: 25px 100px">
+            <img src="static/floorplan.png" style="vertical-align:top;height: 200px;width:200px; background-color: lightgray">
+            Our designer will contanct you to understand your requirements and to take inputs
+        </div>
+    </div>
+
+    <div class="content" id="materials">
+        <div class="arrow_box" style="padding: 25px 100px">
+            <img src="static/floorplan.png" style="vertical-align:top;height: 200px;width:200px; background-color: lightgray">
+            Choose your materials and designs.
+        </div>
+    </div>
+
+    <div class="content" id="render">
+        <div class="arrow_box" style="padding: 25px 100px">
+            <img src="static/floorplan.png" style="vertical-align:top;height: 200px;width:200px; background-color: lightgray">
+            You will be delighted by our demo.
+        </div>
+    </div>
+
+    <div class="content" id="docs">
+        <div class="arrow_box" style="padding: 25px 100px">
+            <img src="static/floorplan.png" style="vertical-align:top;height: 200px;width:200px; background-color: lightgray">
+            You will receive all production documents.
+        </div>
+    </div>
 </div>
+
+
 
 <div class="row tags" style="padding: 5% 0% 1% 0%; border-bottom: 1px solid #4d4d4d;text-align: center">
     <div class="columns large-3 large-centered">
